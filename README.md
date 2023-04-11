@@ -1,2 +1,2 @@
 # retosMaqueenMicroblocks
-La documentación del proyectos está [Aquí](https://pedroruizf.github.io/retosMaqueenMicroblocks)
+La documentación del proyecto está [Aquí](https://pedroruizf.github.io/retosMaqueenMicroblocks)
