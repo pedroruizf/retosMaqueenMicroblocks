@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>08 seguidor de líneas | Retos con robot MAQUEEN </title>
+<title>14 Robot barredor | Retos con robot MAQUEEN </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta name="author" content="Pedro Ruiz Fernández" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-9"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-18"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <header id="header" ><div id="headerContent">Retos con robot MAQUEEN</div></header>
@@ -30,34 +30,33 @@
    <li><a href="05_reconocimiento_de_teclas_mando_ir.html" class="no-ch">05 Reconocimiento de teclas mando IR</a></li>
    <li><a href="06_maqueen_teledirigido_con_mando_ir.html" class="no-ch">06 maqueen teledirigido con mando IR</a></li>
    <li><a href="07_lectura_sensor_ir_de_suelo.html" class="no-ch">07 lectura sensor IR de suelo</a></li>
-   <li id="active"><a href="08_seguidor_de_lneas.html" class="active no-ch">08 seguidor de líneas</a></li>
+   <li><a href="08_seguidor_de_lneas.html" class="no-ch">08 seguidor de líneas</a></li>
    <li><a href="09_evitaobstculos.html" class="no-ch">09 evita-obstáculos</a></li>
    <li><a href="10_seguidor_de_luz.html" class="no-ch">10 seguidor de luz</a></li>
    <li><a href="11_control_remoto_desde_otra_microbit_con_radio.html" class="no-ch">11 Control remoto desde otra micro:bit con radio</a></li>
    <li><a href="12_persigueobjetos.html" class="no-ch">12 persigue-objetos</a></li>
    <li><a href="13_robot_encerrado.html" class="no-ch">13 Robot encerrado</a></li>
-   <li><a href="14_robot_barredor.html" class="no-ch">14 Robot barredor</a></li>
+   <li id="active"><a href="14_robot_barredor.html" class="active no-ch">14 Robot barredor</a></li>
    <li><a href="retos_resueltos.html" class="no-ch">Retos resueltos</a></li>
    <li><a href="otros_retos_propuestos.html" class="no-ch">Otros retos propuestos</a></li>
 </ul>
 </nav>
 <div id='topPagination'>
 <nav class="pagination noprt">
-<a href="07_lectura_sensor_ir_de_suelo.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="09_evitaobstculos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="13_robot_encerrado.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="retos_resueltos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 <div id="main-wrapper">
 <section id="main">
-<header id="nodeDecoration"><h1 id="nodeTitle">08 seguidor de líneas</h1></header>
-<article class="iDevice_wrapper pblIdevice em_iDevice em_iDevice_activity" id="id9">
+<header id="nodeDecoration"><h1 id="nodeTitle">14 Robot barredor</h1></header>
+<article class="iDevice_wrapper pblIdevice em_iDevice em_iDevice_activity" id="id22">
 <div class="iDevice emphasis1" >
-<header class="iDevice_header"><h1 class="iDeviceTitle">Reto 08</h1></header>
+<header class="iDevice_header"><h1 class="iDeviceTitle">Reto 14</h1></header>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
-<div id="ta9_115_2" class="block iDevice_content">
-<div class="pbl-task-description"><p>El reto consiste en hacer un siguelíneas negras, las línea negra del circuito en nuestro caso es más estercha que la distancia entre los sensores infrarrojos de suelo del robot. Por tanto, cuando ambos sensores están a blanco (True) debe avanzar y corregir el movimiento del robot cuando un sensor está a negro (False) y el otro a blanco (True), para que ambos estén a blanco (True).</p>
-<p> </p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Ayuda" /></div><div class="feedback js-feedback js-hidden"><p>Código:</p>
-<p><img src="reto08a.png" alt="reto08" width="520" height="472" /></p></div>
+<div id="ta22_121_2" class="block iDevice_content">
+<div class="pbl-task-description"><p>Se trata de un recinto cerrado `por línea negra, en el cual el robot debe buscar objetos y sacarlos del recinto sin salirse. Cuando el robot saca el objeto debe volver al centro del recinto.</p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Ayuda" /></div><div class="feedback js-feedback js-hidden"><p>Código:</p>
+<p><img src="reto14.png" alt="reto 14" title="reto 14" width="799" height="498" /></p></div>
 </div>
 </div>
 </div>
@@ -70,7 +69,7 @@
 </div>
 <div id='bottomPagination'>
 <nav class="pagination noprt">
-<a href="07_lectura_sensor_ir_de_suelo.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="09_evitaobstculos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="13_robot_encerrado.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="retos_resueltos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 <footer id="siteFooter">Por: Pedro Ruiz</footer></div>
